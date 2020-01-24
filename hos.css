@@ -112,6 +112,12 @@ ul.topnav li.menu a{
     margin-right: 30px;
 }
 @media(max-width: 680px){
+    .brand, .menu{
+        margin-left:0;
+    }
+    ul.topnav{
+        margin-right: 0;
+    }
     ul.topnav li a{
         display: none;
     }
