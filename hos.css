@@ -94,7 +94,7 @@ ul.topnav li.menu a{
     cursor: pointer;
     position: absolute;
     top: 50%;
-    margin-top: -50px;
+    margin-top: -35px;
     width: 0;
     height: 0;
     border-style: solid;
