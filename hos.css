@@ -1,3 +1,7 @@
+:root{
+    --shadow: 0 1px 5px rgba(104, 104, 104,0.8);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -97,21 +101,70 @@ ul.topnav li.menu a{
     margin-top: -35px;
     width: 0;
     height: 0;
-    border-style: solid;
+    
+}
+.arrow .fas{
+    color: white;
 }
 #arrow-left{
-    border-width: 30px 40px 30px 0 ;
+   /* border-width: 30px 40px 30px 0 ;*/
     left: 0;
-    border-color: transparent #fff transparent transparent ;
+    /*border-color: transparent #fff transparent transparent ;*/
     margin-left: 30px;
 }
 #arrow-right{
-    border-width: 30px 0px 30px 40px ;
+    /*border-width: 30px 0px 30px 40px ;*/
     right: 0;
-    border-color: transparent transparent transparent #fff  ;
-    margin-right: 30px;
+    /* border-color: transparent transparent transparent #fff  ;*/
+    margin-right: 100px;
 }
+.head h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    font-size: 50px;
+}
+.head {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.header{
+    display: grid;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card{
+    background: whitesmoke; 
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+}
+.card:hover{
+    background: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+@media(max-width : 769px){
+    .brand{
+        margin-left:0;
+    }
+    ul.topnav{
+        margin-right: 0;
+    }
+    
+}
+
 @media(max-width: 680px){
+    .slide-content span {
+        font-size: 3rem;
+        color: white;
+    }
+    .header{
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+          margin: 0 20px 0px 20px;
+    }
     .brand, .menu{
         margin-left:0;
     }
