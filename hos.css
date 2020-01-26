@@ -105,6 +105,7 @@ ul.topnav li.menu a{
 }
 .arrow .fas{
     color: white;
+    font-size: 4rem;
 }
 #arrow-left{
    /* border-width: 30px 40px 30px 0 ;*/
@@ -135,6 +136,42 @@ ul.topnav li.menu a{
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+.doctor{
+    display: grid;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.doct{
+    display: grid;
+    grid-gap: 150px;    
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+.doct .card img{
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    margin-bottom: 12px;
+    
+}
+.doc .card img{
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    margin-bottom: 12px;
+}
+.doctor .card{
+    max-width: 200px;
+}
+
+
 .card{
     background: whitesmoke; 
     text-align: center;
@@ -146,6 +183,7 @@ ul.topnav li.menu a{
     background: white;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
 @media(max-width : 769px){
     .brand{
         margin-left:0;
@@ -153,9 +191,18 @@ ul.topnav li.menu a{
     ul.topnav{
         margin-right: 0;
     }
+    .arrow .fas{
+        
+        font-size: 3rem;
+    }
+    #arrow-right{
+        /*border-width: 30px 0px 30px 40px ;*/
+        right: 0;
+        /* border-color: transparent transparent transparent #fff  ;*/
+        margin-right: 100px;
+    }
     
 }
-
 @media(max-width: 680px){
     .slide-content span {
         font-size: 3rem;
@@ -201,5 +248,30 @@ ul.topnav li.menu a{
         top: 50px;
         right: 30px;
     }
+    .arrow .fas{
+
+        font-size: 2rem;
+    }
+    #arrow-right{
+        /*border-width: 30px 0px 30px 40px ;*/
+        right: 0;
+        /* border-color: transparent tran77sparent transparent #fff  ;*/
+        margin-right: 50px;
+    }
+.doctor{
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        margin: 0 20px 0px 20px;
+    }
+    .doct{
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        margin: 0 20px 0px 20px;
+    }
+    .doctor .card {
+        max-width: 100%;
+    }
+    .doct{
+        grid-gap: 20px;
+    }
+    
 
 }
