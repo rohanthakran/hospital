@@ -221,8 +221,88 @@ input[type=text], input[type=password] {
   .frm{
       margin: 50px 50px 20px 0px;
   }
-  
+  footer{
+      width: 100%;
+      background-color: cornsilk;
+      display: block;
+  }
+  .form-container{
+      widows: 95%;
+      margin: 0 auto;
+      padding: 30px 10px;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      justify-content: center;
+  }
+  .footer-item{
+      width: 25%;
+      padding: 10px 20px;
+      box-sizing: border-box;
 
+  }
+ footer h1{
+      padding: 10px 0;
+      font-size: 25px;
+      color: black;
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .border{
+      height: 2px;
+      
+    width: 100%;
+    background: #ff9800;
+    margin: 5px 0px 5px 0px;
+  }
+  ul{
+      list-style: none;
+      color: black;
+      font-size: 15px;
+      letter-spacing: 0.5;
+  }
+
+  ul a{
+      text-decoration: none;
+      outline: none;
+      transition: 0.3s;
+      color: black;
+  }
+  ul a:hover{
+      color: dimgray;
+  }
+  li i {
+      margin-right: 20px;
+  }
+  .social-media{
+      width: 100%;
+      color: black;
+      text-align: center;
+  }
+  .social-media a{
+      text-decoration: none;
+      color: black;
+  }
+  .social-media i {
+      height: 15px;
+      width: 15px;
+      margin: 20px 5px;
+      padding: 10px;
+      border-radius: 50%;
+      border: 1px solid grey;
+      transition: 0.3s;
+      color: black;
+  }
+  .social-media i:hover{
+      background: grey;
+  }
+  .footer-bottom{
+      padding: 10px;
+      background: #3d543d;
+      color: black;
+      font-size: 12px;
+  }
 
 @media(max-width : 769px){
     .brand{
@@ -240,6 +320,9 @@ input[type=text], input[type=password] {
         right: 0;
         /* border-color: transparent transparent transparent #fff  ;*/
         margin-right: 100px;
+    }
+    .footer-item{
+        width: 50%;
     }
     
 }
@@ -312,6 +395,10 @@ input[type=text], input[type=password] {
     .doct{
         grid-gap: 20px;
     }
+    .footer-item{
+        width: 100%;
+    }
+    
     
 
 }
