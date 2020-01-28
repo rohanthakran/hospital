@@ -192,7 +192,7 @@ ul.topnav li.menu a{
     margin: 0 auto;
 
 }
-input[type=text], input[type=password] {
+input[type=text], input[type=password],textarea {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -263,22 +263,33 @@ input[type=text], input[type=password] {
       letter-spacing: 0.5;
   }
 
-  ul a{
+  .footer-item ul a{
       text-decoration: none;
       outline: none;
       transition: 0.3s;
       color: black;
+      font-size: 17px;
+    line-height: 1.5rem;
+
   }
-  ul a:hover{
+  .footer-item{
+    font-family: 'Lato', sans-serif;
+  }
+  .footer-item ul a:hover{
       color: dimgray;
   }
   li i {
       margin-right: 20px;
   }
+  .footer-item ul li {
+    font-size: 17px;
+    line-height: 1.5rem;
+  }
   .social-media{
       width: 100%;
       color: black;
       text-align: center;
+      font-family: 'Lato', sans-serif;
   }
   .social-media a{
       text-decoration: none;
