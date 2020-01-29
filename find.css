@@ -1,0 +1,59 @@
+.back img{
+    width: 100%;
+    max-width: 100%;
+}
+.inner{
+    margin: 0 auto;
+    max-width: 1100px;
+    font-family: 'Kulim Park', sans-serif;
+    margin-top: -100px;
+    position: relative;
+    background-color: white;
+    margin-bottom: 100px;
+    
+}
+select{
+    font-family: 'Kulim Park', sans-serif;
+}
+.select-doc{
+    padding: 20px 20px 10px 50px;
+    background-color: darkcyan;
+    margin-top: 70px;
+}
+.select-doc h2{
+    display: inline-block;
+}
+.select-doc input[type=text], select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 20px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    max-width: 300px;
+  }
+  .select-doc input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  .select-doc button {
+      background-color: cornflowerblue;
+      padding: 15px 30px 15px 30px ;
+      border: none;
+      border-radius: 15%;
+      margin-left: 22px;
+      cursor: pointer;
+      font-family: 'Muli', sans-serif;
+      font-weight: 1000;
+  }
+  .line{
+    height: 2px;
+  
+  width: 100%;
+  background: #ff9800;
+  margin: 30px 0px 5px 0px;
+}
+.find-doc h1{
+    font-size: 30px;
+    padding: 20px 20px 10px 50px;
+}
