@@ -5,16 +5,20 @@
 .aot{
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    
     max-width: 600px;
     margin: 0 auto;
-    margin-top: -120px;
+    margin-top: -100px;
     position: relative;
     background-color: white;
     margin-bottom: 100px;
     
 
 }
+.aot form{
+    padding: 20px;
+}
+
 .but {
     background-color: lightblue;;
     color: white;
@@ -30,4 +34,15 @@
   .but:hover {
       background-color: cadetblue;
   }
-  
+  .frm input[type = number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+.frm input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
