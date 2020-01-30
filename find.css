@@ -1,146 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>
-            Hospital
-        </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href=" hos.css">
-        <link rel="stylesheet" href="find.css">
-        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+.back img{
+    width: 100%;
+    
+}
+.inner{
+    margin: 0 auto;
+    max-width: 1100px;
+    font-family: 'Kulim Park', sans-serif;
+    margin-top: -100px;
+    position: relative;
+    background-color: white;
+    margin-bottom: 100px;
+    
+}
+select{
+    font-family: 'Kulim Park', sans-serif;
+}
+.select-doc{
+    padding: 20px 20px 10px 50px;
+    background-color: darkcyan;
+    margin-top: 70px;
+}
+.select-doc h2{
+    display: inline-block;
+}
+.select-doc input[type=text], select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 20px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    max-width: 300px;
+  }
+  .select-doc input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  .select-doc button {
+      background-color: cornflowerblue;
+      padding: 15px 30px 15px 30px ;
+      border: none;
+      border-radius: 15%;
+      margin-left: 22px;
+      cursor: pointer;
+      font-family: 'Muli', sans-serif;
+      font-weight: 1000;
+  }
+  .line{
+    height: 2px;
+  
+  width: 100%;
+  background: #ff9800;
+  margin: 30px 0px 5px 0px;
+}
+.find-doc h1{
+    font-size: 30px;
+    padding: 20px 20px 10px 50px;
+}
 
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <script type="text/javascript" src="pro.js"></script>
-        <div class="wrapper">
-            <nav class="main-nav">
-                <div class="brand">
-                   RT<span>Hospital</span>
-                </div>
-                <ul class="topnav" id="nav">
-                    <li><a href="hos.html">Home</a></li>
-                    <li><a href="#">Find Doctor</a></li>
-                    <li><a href="#">Specilties</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Home Check-Up</a></li>
-                    <li class="menu"><a href="javascript:void(0);" onclick="drop()">&#x2630;</a></li>
-                </ul>
-            </nav>
-            <!--Top Container-->
-          <section>
-              <div class="back">
-                  <img src="hospital.jpg" alt="hospital">
-              </div>
+@media(max-width : 769px){
+    
+    
+}
 
-              <div class="inner">
-                  <div class="find-doc">
-                      <h1>Find a Doctor</h1>
-                  </div>
-                  <div class="line"></div>
-                  <div class="select-doc">
-                      <h2>Find a Doctor</h2>
-                      
-                      <input type="text" placeholder="Doctor's name" name="text" required>
-                      <select>
-                        <option value="volvo">Interventional Cardiology</option>
-                        <option value="saab">Cardio Thoracic & Vascular Surgery</option>
-                        <option value="opel">Critical-Care</option>
-                        <option value="audi">Dental</option>
-                        <option value="audi">gastroenterology</option>
-                        <option value="audi">Liver Transplant</option>
-                        <option value="audi">neurology</option>
-                        <option value="audi">Neurosurgery</option>
-                        <option value="audi">Radiation-Oncology</option>
-                        <option value="audi">Urology and Nephrology</option>
-                      </select>
-                      <button type="button">Submit</button>
 
-                  </div>
-              </div>
-          </section>
-               
-           
-            <form>
-                <div class="head">
-                    <h1>For Query </h1>
-                </div>
-                <div class="query">
-                    <p>Please fill the form for Anykind of query</p>
-                    <div class="frm">
-                    <label for="email"><b>Email</b></label>
-                   <input type="text" placeholder="Enter Email" name="email" required>
-                   <br>
-
-                   <label for="psw"><b>Password</b></label>
-                   <br>
-                   <textarea rows="4" cols="50" placeholder="Enter your Query"></textarea>
-                 <br>
-                    </div>
-                   <hr>
-                   <br>
-               
-                   <button type="submit" class="registerbtn">Submit</button>
-                 </div>
-                  
-                </div>
-            </form>
-
-            <footer>
-            <div class="form-container">
-                <div class="footer-item">
-                    <h1>Quick Links</h1>
-              <div class="border"></div>
-                  <ul>
-                      <a href="#"><li>Home</li></a>
-                      <a href="#"><li>About</li></a>
-                      <a href="#"><li>Services</li></a>
-                      <a href="#"><li>Portfolio</li></a>
-                      <a href="#"><li>Contact Us</li></a>
-                  </ul>
-                </div>
-
-                <div class="footer-item">
-                    <h1>Tutorials</h1>
-              <div class="border"></div>
-                  <ul>
-                      <a href="#"><li>HTML /CSS</li></a>
-                      <a href="#"><li>Javascript</li></a>
-                      <a href="#"><li>PHP</li></a>
-                      <a href="#"><li>Python</li></a>
-                      <a href="#"><li>Java</li></a>
-                  </ul>
-                </div>
-
-                <div class="footer-item">
-                    <h1>Contact Us</h1>
-              <div class="border"></div>
-                  <ul>
-                       <li><i class="fas fa-map-marker-alt"></i>1, XYZ Street, New Delhi</li>
-                    <li><i class="fas fa-phone-alt"></i>1575023974</li>
-                    <li><i class="fas fa-envelope-open"></i>Rthospital@gmail.com</li>
-                    </ul>
-                </div>
-
-                <div class="social-media">
-                    <a href=""><i class="fab fa-facebook-square"></i>Facebook</a>
-                    <a href=""><i class="fab fa-twitter"></i>Twitter</a>
-                    <a href=""><i class="fab fa-instagram"></i>Instagram</a>
-                </div>
-             <div class="footer-bottom">
-                 Copyright &copy; Rthospital & 2019.All rights reserved.
-             </div>
-            </div>
-            </footer>
-
+@media(max-width: 680px){
+    .back img{
+        max-width: 500px;
         
-        </div>
-
-        <script type="text/javascript" src="hos.js"></script>
-    </body>
-
-</html>
+    }
+    .inner{
+        margin: 0 auto;
+        max-width: 1100px;
+        font-family: 'Kulim Park', sans-serif;
+        background-color: white;
+        
+    }
+    select {
+        width: 100%;
+        padding: 20px;
+        margin: 5px 0px 22px 20px;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+        max-width: 320px;
+    }
+    .select-doc{
+        padding: 20px 20px 10px 10px;
+        background-color: darkcyan;
+        margin-top: 70px;
+    }
+    .select-doc select option{
+        max-width: 0px;
+        width: 100%;
+    }
+    select:focus {
+        min-width: 300px;
+        width: 100%;
+    }   
+}
