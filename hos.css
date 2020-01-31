@@ -123,7 +123,7 @@ ul.topnav li.menu a{
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding: 20px;
-    font-size: 50px;
+   
 }
 .head {
     margin-bottom: 20px;
@@ -135,6 +135,9 @@ ul.topnav li.menu a{
     max-width: 1200px;
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.header .card h1{
+    font-size: 15px;
 }
 .doctor{
     display: grid;
@@ -151,6 +154,19 @@ ul.topnav li.menu a{
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
+}
+.dr-name{
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0082c6;
+    margin: 0 0 5px 0;
+    min-height: 40px;
+    line-height: 19px;
+}
+.card{
+    font-family: 'Roboto', sans-serif;
 }
 .doct .card img{
     width: 100%;
@@ -170,10 +186,15 @@ ul.topnav li.menu a{
 .doctor .card{
     max-width: 200px;
 }
+.doctor .card p{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 700;
+}
 
 
 .card{
-    background: whitesmoke; 
+    background: white; 
     text-align: center;
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
@@ -181,7 +202,7 @@ ul.topnav li.menu a{
 }
 .card:hover{
     background: white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 8px 8px 16px 8px rgba(0.2,0.2,0.2,0.2);
 }
 
 .query{
@@ -192,7 +213,7 @@ ul.topnav li.menu a{
     margin: 0 auto;
 
 }
-input[type=text], input[type=password],textarea {
+.frm input[type=text], input[type=password],textarea, input[type = number] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -200,7 +221,7 @@ input[type=text], input[type=password],textarea {
     border: none;
     background: #f1f1f1;
   }
-  input[type=text]:focus, input[type=password]:focus {
+.frm input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
