@@ -1,0 +1,29 @@
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+.heading{
+    background-color:white;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+    margin: 20px 0 20px 0;
+
+
+}
+.test
+{
+    background-color: whitesmoke;
+    border: 5px solid black;
+    padding: 2rem;
+    display: inline-block;
+}
+.card1{
+    display: block;
+    
+}
+
+.test:hover {
+    background: white;
+    box-shadow: 8px 8px 16px 8px rgba(0.2,0.2,0.2,0.2);
+}
