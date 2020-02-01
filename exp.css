@@ -47,3 +47,23 @@
     background: #ff9800;
     margin: 10px 0px 15px 0px;
 }
+
+@media(max-width : 769px){
+     
+    .test{
+        margin: 17px;
+        padding: 1rem;
+
+    }
+    .mand{
+
+        padding: 10px;
+    }
+}
+
+@media (max-width : 325px){
+    .text{
+        margin: 40px;
+    }
+
+}
