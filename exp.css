@@ -7,9 +7,22 @@
     background-color:white;
     font-family:'Lato', sans-serif;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 30px 0 20px 0;
+    font-size: 25px;
+}
 
 
+}
+.mand{
+    font-family: 'Courier New', Courier, monospace;
+     padding: 5px;
+}
+.mand i {
+    display: inline;
+    margin-right: 15px;
+}
+.price i  { 
+    margin-right: 15px;
 }
 .test
 {
@@ -17,6 +30,7 @@
     border: 5px solid black;
     padding: 2rem;
     display: inline-block;
+    margin: 80px;
 }
 .card1{
     display: block;
@@ -25,5 +39,11 @@
 
 .test:hover {
     background: white;
-    box-shadow: 8px 8px 16px 8px rgba(0.2,0.2,0.2,0.2);
+    box-shadow: 16px 16px 16px 16px rgba(0.2,0.2,0.2,0.2);
+}
+.line1{
+    height: 2px;
+    width: 100%;
+    background: #ff9800;
+    margin: 10px 0px 15px 0px;
 }
