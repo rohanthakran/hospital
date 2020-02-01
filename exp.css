@@ -11,7 +11,8 @@
     font-size: 25px;
 }
 
-
+.price{
+    display: inline;
 }
 .mand{
     font-family: 'Courier New', Courier, monospace;
@@ -30,10 +31,14 @@
     border: 5px solid black;
     padding: 2rem;
     display: inline-block;
-    margin: 80px;
+    margin: 40px;
 }
 .card1{
-    display: block;
+    display: grid;
+    grid-gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     
 }
 
