@@ -138,6 +138,12 @@ ul.topnav li.menu a{
 }
 .header .card h1{
     font-size: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    padding: 20px 10px 0px 10px;
+    min-height: 40px;
+    line-height: 19px;
 }
 .doctor{
     display: grid;
@@ -157,7 +163,7 @@ ul.topnav li.menu a{
 }
 .dr-name{
     text-transform: uppercase;
-    font-family: Oswald, sans-serif;
+    font-family:  sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #0082c6;
