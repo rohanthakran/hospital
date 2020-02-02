@@ -34,7 +34,7 @@
   .but:hover {
       background-color: cadetblue;
   }
-  .frm input[type = number] {
+  .frm input[type = number], input[type = date] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -45,4 +45,22 @@
 .frm input[type=number]:focus {
     background-color: #ddd;
     outline: none;
+  }
+
+  @media (max-width : 689px){
+
+    .aot{
+      margin-top: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+      max-width: 600px;
+      margin: 0 auto;
+    
+      position: relative;
+      background-color: white;
+      margin-bottom: 100px;
+      
+  
+  }
+
   }
