@@ -1,4 +1,4 @@
-section .contain{
+ .contain{
     display: flex;
     margin: 0 auto;
     max-width: 1500px;
@@ -11,6 +11,8 @@ section .contain{
 }
 .box1{
     background-color: chocolate;
+    max-width: 700px;
+
     
 }
 .heading{
@@ -47,3 +49,60 @@ section .contain{
     background: #ff9800;
     margin: 10px 0px 15px 0px;
 }
+.my-form input[type=text], input[type=password],textarea, input[type = number] {
+    width:80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  .input{
+      width: 50%;
+      float: left;
+    
+      
+  }
+  .input1 select {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 20px 0px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    max-width: 300px;
+  }
+.input1 textarea{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+.box1 button{
+    padding: 20px;
+    background-color: cadetblue;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius: 20px;
+}
+  @media (max-width: 689px){
+       .contain{
+          flex-direction: column;
+      }
+      .box , .box1{
+          
+          margin: 20px;
+      }
+      .input{
+          float: none;
+          width: 100%;
+      }
+
+  }
+
+
