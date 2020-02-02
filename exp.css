@@ -92,9 +92,11 @@
     }
 }
 
-@media (max-width : 411px){
-    .text{
-        margin: 40px;
+@media (max-width : 689px){
+
+    .card1 { 
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    margin: 0 20px 0px 20px;
     }
 
 }
