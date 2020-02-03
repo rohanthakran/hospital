@@ -6,11 +6,11 @@
     
 }
 .box{
-    background-color: brown;
+    background-color:  #007dc5;
     
 }
 .box1{
-    background-color: chocolate;
+    background-color: white;
     max-width: 700px;
 
     
@@ -27,16 +27,19 @@
     font-family:'Roboto', sans-serif;
     
 }
-.my h1{
+.box1 .my h1{
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #007dc5; ;
+    font-size: 50px;
 }
 .my i {
     display: inline;
     margin-right: 15px;
+    color: white;
 }
 .my{
-    margin-bottom: 12px;
+    margin-bottom: 30px;
 }
 .addes p{
      margin-bottom: 12px;
@@ -70,7 +73,7 @@
     display: inline-block;
     border: none;
     background: #f1f1f1;
-    max-width: 300px;
+    max-width: 270px;
   }
 .input1 textarea{
     width: 90%;
@@ -84,13 +87,21 @@
 
 .box1 button{
     padding: 20px;
-    background-color: cadetblue;
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#007dc5;;
+    font-size: 17px;
+    font-family:'Roboto', sans-serif;
     border: none;
-    border-radius: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+
 }
-  @media (max-width: 689px){
+
+
+.box1 .add {
+    padding: 0px 50px 50px 50px;
+}
+@media (max-width: 689px){
        .contain{
           flex-direction: column;
       }
@@ -101,6 +112,10 @@
       .input{
           float: none;
           width: 100%;
+      }
+      .box1 .add{
+          padding: 12px;
+          font-family:'Roboto', sans-serif;
       }
 
   }
