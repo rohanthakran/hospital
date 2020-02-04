@@ -101,6 +101,37 @@
 .box1 .add {
     padding: 0px 50px 50px 50px;
 }
+
+.below{
+    background-color: white;
+}
+.navig{
+    margin: 0 auto;
+    max-width: 900px;  
+}
+
+.in-card  {
+    
+    padding: 20px; 
+    display: inline-block;
+    text-align: center;
+}
+
+.in-card i{
+    font-size: 50px;
+    color: #007dc5;
+    text-align: center;
+    margin-bottom: 12px;
+  
+}
+.in-card p{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+
+
+
 @media (max-width: 689px){
        .contain{
           flex-direction: column;
@@ -117,6 +148,25 @@
           padding: 12px;
           font-family:'Roboto', sans-serif;
       }
+      .navig{
+          max-width: 300px;
+          margin: 0 auto;
+      }
+      
+     .in-card  {
+    
+          padding: 12px; 
+          display: inline-block;
+          text-align: center;
+   }
+   
+.in-card i{
+    font-size: 25px;
+   
+    margin-bottom: 5px;
+  
+}
+
 
   }
 
