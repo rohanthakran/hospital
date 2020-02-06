@@ -105,18 +105,18 @@
 .below{
     background-color: white;
 }
-.navig{
-    margin: 0 auto;
-    max-width: 900px;  
-}
 
 .in-card  {
     
     padding: 20px; 
     display: inline-block;
     text-align: center;
+    vertical-align: top;
 }
-
+.in-card a{
+    text-decoration: none;
+    color: black;
+}
 .in-card i{
     font-size: 50px;
     color: #007dc5;
@@ -127,6 +127,17 @@
 .in-card p{
     font-family: 'Roboto', sans-serif;
     padding: 5px;
+}
+.line3{
+    height: 2px;
+    width: 100%;
+    background: #ff9800;
+   
+}
+.middle{
+    float: right;
+    margin-right: 50px;
+   
 }
 
 
