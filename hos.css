@@ -66,8 +66,8 @@ ul.topnav li.menu a{
     background-color: white;
 }
 .middle{
-    float: right;
-    margin-right: 50px;
+    display: inline-block;
+    margin-left: 930px;
    
 }
 .in-card a{
@@ -116,17 +116,20 @@ ul.topnav li.menu a{
 }
 .slide1{
     background-image: url('slide/3.VH_3rd-Floor-TV.png');
-    width: 100%;
+max-width:  100%;
 }
 
 .slide2{
     background-image: url('slide/4.VH_3rd-Floor-TV.png');
+    
 }
 .slide3{
     background-image: url("slide/5.VH_3rd-Floor-TV.png");
+    
 }
 .slide4{
     background-image: url('slide/9.VH_3rd-Floor-TV.png');
+    width: 100%;
 }
 .slide-content{
     display: flex;
@@ -387,7 +390,49 @@ ul.topnav li.menu a{
       color: black;
       font-size: 12px;
   }
-  
+  .bg-modal{
+    width:100%;
+   height: auto;
+   background-color: rgba(0,0,0,0.7);
+   position: absolute;
+   top:0;
+    display: none;
+
+   justify-content: center;
+   align-items: center;
+ }
+ .modal-content{
+   width:400px;
+   height: auto;
+   background-color: white;
+   padding: 20px;
+   position: relative;
+
+   top: 150px;
+   
+ }
+ 
+ 
+ .close{
+   font-size: 25px;
+   position: absolute;
+   top: 0;
+   right: 14px;
+   transform : rotate(45deg);
+   cursor : pointer;
+ }
+ .modal-content input[type=text],input[type = email],input[type=password],textarea, input[type = number] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+.modal-content input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
 @media(max-width : 769px){
     .brand{
         margin-left:0;
@@ -482,7 +527,27 @@ ul.topnav li.menu a{
     .footer-item{
         width: 100%;
     }
+    .below{
+        text-align: center;
+    }
+    .middle{
+        margin: 0;
+    }
     
-    
+
+}
+
+@media (min-width: 1024px) {
+ 
+  
+} 
+  @media (max-width: 768px) {
+    .wrap {
+      height: 360px;
+      
+    }
+    .slide .slide1 background-image{
+        width: 50%;
+    }
 
 }
