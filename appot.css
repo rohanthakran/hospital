@@ -46,6 +46,49 @@
     background-color: #ddd;
     outline: none;
   }
+  .bg-modal{
+    width:100%;
+   height: auto;
+   background-color: rgba(0,0,0,0.7);
+   position: absolute;
+   top:0;
+    display: none;
+
+   justify-content: center;
+   align-items: center;
+ }
+ .modal-content{
+   width:400px;
+   height: auto;
+   background-color: white;
+   padding: 20px;
+   position: relative;
+
+   top: 150px;
+   
+ }
+ 
+ 
+ .close{
+   font-size: 25px;
+   position: absolute;
+   top: 0;
+   right: 14px;
+   transform : rotate(45deg);
+   cursor : pointer;
+ }
+ .modal-content input[type=text],input[type = email],input[type=password],textarea, input[type = number] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+.modal-content input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
 
   @media (max-width : 689px){
 
