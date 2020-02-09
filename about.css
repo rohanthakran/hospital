@@ -32,3 +32,8 @@
 .gallery {
     text-align: center;
 }
+.line4{
+    height: 2px;
+    width: 100%;
+    background: #ff9800;
+}
