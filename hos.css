@@ -254,6 +254,7 @@ max-width:  100%;
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
     cursor: pointer;
+    transition: 0.3s;
 }
 .card:hover{
     background: white;
@@ -392,12 +393,11 @@ max-width:  100%;
   }
   .bg-modal{
     width:100%;
-   height: auto;
+   height: 100%;
    background-color: rgba(0,0,0,0.7);
    position: absolute;
    top:0;
     display: none;
-
    justify-content: center;
    align-items: center;
  }
@@ -405,23 +405,27 @@ max-width:  100%;
    width:400px;
    height: auto;
    background-color: white;
-   padding: 20px;
+   padding: 30px;
    position: relative;
-
-   top: 150px;
+   top: 2rem;
    
  }
- 
- 
+ .modal-content label {
+     font-family: sans-serif;
+ }
  .close{
-   font-size: 25px;
+   font-size: 30px;
+   font-weight: 1000;
    position: absolute;
    top: 0;
-   right: 14px;
+   right: 10px;
    transform : rotate(45deg);
    cursor : pointer;
  }
- .modal-content input[type=text],input[type = email],input[type=password],textarea, input[type = number] {
+ .modal-content textarea {
+     width: 90%;
+ }
+ .modal-content input[type=text],input[type = email],input[type=password], input[type = number] {
     width: 90%;
     padding: 15px;
     margin: 5px 0 22px 0;
