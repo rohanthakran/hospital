@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     </head>
     <body>
-        <script type="text/javascript" src="pro.js"></script>
+        <script type="text/javascript" src="feed.js"></script>
         <div class="wrapper">
 
 
@@ -44,7 +44,7 @@
                   <div class="in-card">
                     <i class="fas fa-comment-medical"></i>
 
-                   <a href="#"> <p>Get Treatment <br>Advice</p></a>
+                   <a href="get-advice.html"> <p>Get Treatment <br>Advice</p></a>
                 </div>
                 
                 <div class="in-card">
@@ -257,7 +257,7 @@
                         
                     </div>
                     <div class="card">
-                        <img src="news.jpg" alt="">
+                       <a onclick="myFunction()"><img src="news.jpg" alt=""></a>
                         <h1>News Letter</h1>
                         <p>Be update about new Research</p>
                     </div>
@@ -405,6 +405,14 @@
 
         <script type="text/javascript" src="hos.js"></script>
         <script type="text/javascript" src="feed.js"></script>
+        <script>
+            function myFunction() {
+              var txt;
+              var person = prompt("Please enter your email address:", "Harry Potter");
+              
+              
+            }
+            </script>
     </body>
 
 </html>
