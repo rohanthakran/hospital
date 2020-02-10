@@ -437,6 +437,35 @@ max-width:  100%;
     background-color: #ddd;
     outline: none;
   }
+  .upcome{
+      margin: 0 auto;
+      width: 900px;
+      padding: 20px;
+  }
+  .upcome h1 {
+      margin: 12px;
+  }
+  .upcome button
+  {
+    
+        border: none;
+        padding: 12px;
+        background-color: cornflowerblue;
+        font-weight: 800;
+        color: white;
+        cursor: pointer;
+        
+  }
+    
+  .upcome button:hover{
+        background-color: white;
+        color: black;
+        border: 2px solid cornflowerblue;
+        font-weight: 750;
+}
+  
+  
+  
 @media(max-width : 769px){
     .brand{
         margin-left:0;
