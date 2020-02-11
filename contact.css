@@ -82,7 +82,6 @@
     display: inline-block;
     border: none;
     background: #f1f1f1;
-
 }
 
 .box1 button{
@@ -134,11 +133,15 @@
     background: #ff9800;
    
 }
-.middle{
-    float: right;
-    margin-right: 50px;
-   
-}
+.below{
+        background-color: white;
+  }
+  .middle{
+        display: flex;
+        justify-content: center;
+        
+       
+    }
 
 
 
@@ -147,10 +150,7 @@
        .contain{
           flex-direction: column;
       }
-      .box , .box1{
-          
-          margin: 20px;
-      }
+      
       .input{
           float: none;
           width: 100%;
@@ -166,7 +166,7 @@
       
      .in-card  {
     
-          padding: 12px; 
+          padding: 10px; 
           display: inline-block;
           text-align: center;
    }
