@@ -20,7 +20,17 @@
     line-height: 30px;
     font-style: italic;
     
+
 }
+.below{
+    background-color: white;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+
+   
+}   
 .para p{
     padding: 20px;
 }
@@ -36,4 +46,11 @@
     height: 2px;
     width: 100%;
     background: #ff9800;
+}
+
+@media (max-width: 680px)
+{
+    .about{
+        margin-top: 0px;
+    }
 }
