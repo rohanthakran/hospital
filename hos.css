@@ -66,8 +66,9 @@ ul.topnav li.menu a{
     background-color: white;
 }
 .middle{
-    display: inline-block;
-    margin-left: 930px;
+    display: flex;
+    justify-content: center;
+    
    
 }
 .in-card a{
@@ -560,20 +561,20 @@ max-width:  100%;
     .footer-item{
         width: 100%;
     }
-    .below{
-        text-align: center;
+    .in-card i {
+        font-size: 25px;
+        margin-bottom: 5px;
     }
-    .middle{
-        margin: 0;
-    }
-    
-
+}
+.in-card {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
 }
 
-@media (min-width: 1024px) {
- 
-  
-} 
+
+
+
   @media (max-width: 768px) {
     .wrap {
       height: 360px;
