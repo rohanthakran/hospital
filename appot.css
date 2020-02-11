@@ -15,6 +15,17 @@
     
 
 }
+
+.below{
+    background-color: white;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+
+   
+}
+
 .aot form{
     padding: 20px;
 }
@@ -78,7 +89,6 @@
    cursor : pointer;
  }
  .modal-content input[type=text],input[type = email],input[type=password],textarea, input[type = number] {
-    width: 90%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
@@ -89,7 +99,9 @@
     background-color: #ddd;
     outline: none;
   }
-
+ .footer-item li {
+   list-style: none;
+ }
   @media (max-width : 689px){
 
     .aot{
@@ -105,5 +117,14 @@
       
   
   }
+  .in-card {
+    padding: 12px;
+    display: inline-block;
+    text-align: center;
+}
+.in-card i {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
 
   }
