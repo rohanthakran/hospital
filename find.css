@@ -1,6 +1,15 @@
 .back img{
     width: 100%;
+}
+
+.below{
+    background-color: white;
+}
+.middle{
+    display: flex;
+    justify-content: center;
     
+   
 }
 .inner{
     margin: 0 auto;
@@ -58,10 +67,6 @@ select{
     padding: 20px 20px 10px 50px;
 }
 
-@media(max-width : 769px){
-    
-    
-}
 
 
 @media(max-width: 680px){
@@ -98,4 +103,13 @@ select{
         min-width: 300px;
         width: 100%;
     }   
+    .in-card {
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+    .in-card i {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
 }
