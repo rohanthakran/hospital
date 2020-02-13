@@ -64,7 +64,7 @@
    position: absolute;
    top:0;
     display: none;
-
+  overflow: scroll;
    justify-content: center;
    align-items: center;
  }
@@ -74,8 +74,9 @@
    background-color: white;
    padding: 20px;
    position: relative;
+   
 
-   top: 150px;
+   
    
  }
  
