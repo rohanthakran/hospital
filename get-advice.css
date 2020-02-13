@@ -33,7 +33,7 @@
     border: none;
     background: #f1f1f1;
 }
-#but{
+#butt{
     padding: 12px;
     margin: 50px 0 0 50px;
     outline: none;
@@ -41,4 +41,13 @@
     border: none;
     border-radius: 10%;
     cursor: pointer;
+}
+
+@media (max-width: 680px){
+    .advice {
+        margin: 0 auto;
+        max-width: 1100px;
+        font-family: 'Kulim Park', sans-serif;
+        background-color: white;
+    }
 }
