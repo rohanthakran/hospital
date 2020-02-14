@@ -8,9 +8,9 @@
     width: 100%;
 }
 .form-box{
-    width: 300px;
+    width: 400px;
     height: 480px;
-    margin: 3% auto;
+    margin: 0 auto;
     padding: 5px;
     position: relative;
     overflow: hidden;
@@ -59,7 +59,7 @@
 .input-group{
        top: 180px;
        position: absolute;
-       width: 280px;
+       width: 300px;
        transition: 0.5s;
 
 }
@@ -99,7 +99,7 @@
     font-family: sans-serif;
 }
 #login{
-    left: 15px;
+    left: 30px;
 }
 #register{
     left: 450px;
