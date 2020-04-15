@@ -1,0 +1,130 @@
+.back img{
+    width: 100%;
+    
+}
+.aot{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    margin-bottom: 100px;
+    
+
+}
+
+.below{
+    background-color: white;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.aot form{
+    padding: 20px;
+}
+
+.but {
+    background-color: lightblue;;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+  }
+  .but:hover {
+      background-color: cadetblue;
+  }
+  .frm input[type = number], input[type = date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+.frm input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .bg-modal{
+    width:100%;
+   height: auto;
+   background-color: rgba(0,0,0,0.7);
+   position: absolute;
+   top:0;
+    display: none;
+  overflow: scroll;
+   justify-content: center;
+   align-items: center;
+ }
+ .modal-content{
+   width:400px;
+   height: auto;
+   background-color: white;
+   padding: 20px;
+   position: relative;
+   
+
+   
+   
+ }
+ 
+ 
+ .close{
+   font-size: 25px;
+   position: absolute;
+   top: 0;
+   right: 14px;
+   transform : rotate(45deg);
+   cursor : pointer;
+ }
+ .modal-content input[type=text],input[type = email],input[type=password],textarea, input[type = number] {
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+.modal-content input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+ .footer-item li {
+   list-style: none;
+ }
+  @media (max-width : 689px){
+
+    .aot{
+      margin-top: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+      max-width: 600px;
+      margin: 0 auto;
+    
+      position: relative;
+      background-color: white;
+      margin-bottom: 100px;
+      
+  
+  }
+  .in-card {
+    padding: 12px;
+    display: inline-block;
+    text-align: center;
+}
+.in-card i {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+  }
